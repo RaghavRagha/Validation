@@ -1,0 +1,112 @@
+[
+  {
+    "test_case": "Login functionality",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Login works smoothly",
+    "response_time": 120,
+    "valid_credentials": true,
+    "session_duration": 3600,
+    "security_audit": true,
+    "browser": "Chrome"
+  },
+  {
+    "test_case": "Registration form validation",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "All fields validated properly",
+    "response_time": 150,
+    "valid_credentials": false,
+    "session_duration": 0,
+    "security_audit": true,
+    "browser": "Firefox"
+  },
+  {
+    "test_case": "Search functionality",
+    "status": "fail",
+    "bug_count": 1,
+    "comment": "Search results not displaying properly",
+    "response_time": 200,
+    "valid_credentials": true,
+    "session_duration": 4200,
+    "security_audit": false,
+    "browser": "Safari"
+  },
+  {
+    "test_case": "Add to cart functionality",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Items added successfully",
+    "response_time": 100,
+    "valid_credentials": true,
+    "session_duration": 2800,
+    "security_audit": true,
+    "browser": "Edge"
+  },
+  {
+    "test_case": "Checkout process",
+    "status": "fail",
+    "bug_count": 2,
+    "comment": "Payment gateway integration issue",
+    "response_time": 180,
+    "valid_credentials": true,
+    "session_duration": 5000,
+    "security_audit": false,
+    "browser": "Opera"
+  },
+  {
+    "test_case": "Profile page display",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Profile information displayed correctly",
+    "response_time": 130,
+    "valid_credentials": true,
+    "session_duration": 3200,
+    "security_audit": true,
+    "browser": "Chrome"
+  },
+  {
+    "test_case": "Password reset functionality",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Reset link sent to email successfully",
+    "response_time": 140,
+    "valid_credentials": true,
+    "session_duration": 3800,
+    "security_audit": true,
+    "browser": "Firefox"
+  },
+  {
+    "test_case": "Homepage layout",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Layout responsive on all devices",
+    "response_time": 110,
+    "valid_credentials": true,
+    "session_duration": 3000,
+    "security_audit": true,
+    "browser": "Safari"
+  },
+  {
+    "test_case": "Product image loading",
+    "status": "fail",
+    "bug_count": 1,
+    "comment": "Images taking too long to load",
+    "response_time": 190,
+    "valid_credentials": true,
+    "session_duration": 4500,
+    "security_audit": false,
+    "browser": "Edge"
+  },
+  {
+    "test_case": "Contact form submission",
+    "status": "pass",
+    "bug_count": 0,
+    "comment": "Messages sent successfully",
+    "response_time": 160,
+    "valid_credentials": true,
+    "session_duration": 3400,
+    "security_audit": true,
+    "browser": "Opera"
+  }
+]
